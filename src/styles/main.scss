@@ -1,0 +1,17 @@
+@import '../components/HomePage/HomePage.scss';
+@import '../components/GameGrid/GameGrid.scss';
+@import '../components/Leaderboard/Leaderboard.scss';
+@import '../components/Navbar/Navbar.scss';
+@import '../components/Flashcards/Flashcards.scss';
+@import '../pages/GamePage.scss';
+@import '../pages/HomePage.scss';
+@import '../pages/LeaderboardPage.scss';
+@import '../pages/DashboardPage.scss';
+
+// Add global styles here
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
