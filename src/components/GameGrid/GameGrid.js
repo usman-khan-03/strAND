@@ -1,0 +1,1 @@
+// The main game grid component where users interact with the grid
