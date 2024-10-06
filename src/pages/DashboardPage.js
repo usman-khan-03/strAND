@@ -1,11 +1,6 @@
 import React from 'react';
 import Flashcards from '../components/Flashcards/Flashcards';
-<<<<<<< HEAD
-import './DashboardPage.scss';
-
-=======
 import '../components/Dashboard/Dashboard.scss';
->>>>>>> 5bbc76d (Save uncommitted changes before pulling)
 function DashboardPage() {
   return (
     <div className="dashboard">
