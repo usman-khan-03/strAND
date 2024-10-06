@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './HomePage.scss';
+import '../components/HomePage/HomePage.scss';
 import { useNavigate } from 'react-router-dom';
 
 function HomePage() {

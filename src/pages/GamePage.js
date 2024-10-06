@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 import GameGrid from '../components/GameGrid/GameGrid';
 import { useLocation } from 'react-router-dom';
 import axios from '../services/api';
+<<<<<<< HEAD
 import './GamePage.scss';
+=======
+import '../components/GameGrid/GameGrid.scss';
+>>>>>>> 5bbc76d (Save uncommitted changes before pulling)
 
 function GamePage() {
   const [gridData, setGridData] = useState(null);

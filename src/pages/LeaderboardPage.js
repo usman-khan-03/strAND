@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../services/api';
+<<<<<<< HEAD
 import './LeaderboardPage.scss';
+=======
+import '../components/Leaderboard/Leaderboard.scss';
+>>>>>>> 5bbc76d (Save uncommitted changes before pulling)
 
 function LeaderboardPage() {
   const [leaderboardData, setLeaderboardData] = useState([]);

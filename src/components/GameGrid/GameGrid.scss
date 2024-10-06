@@ -1,0 +1,28 @@
+.game-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  
+    &__row {
+      display: flex;
+    }
+  
+    &__cell {
+      width: 40px;
+      height: 40px;
+      margin: 2px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &--selected {
+        background-color: #ffeb3b;
+      }
+    }
+  }
+  
